@@ -2,3 +2,6 @@
 .vscode/*
 
 image_processor/output_images/*
+
+communication/shared_folder/*
+communication/output_images/*

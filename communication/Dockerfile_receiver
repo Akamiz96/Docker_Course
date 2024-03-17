@@ -1,0 +1,14 @@
+# Use a base image with Python
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Install necessary dependencies
+RUN pip install numpy Pillow
+
+# Copy the source code into the container
+COPY receiver.py .
+
+# Run the Python program
+CMD ["python", "receiver.py"]
