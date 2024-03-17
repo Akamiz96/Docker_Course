@@ -1,2 +1,4 @@
 .vscode
 .vscode/*
+
+image_processor/output_images/*
