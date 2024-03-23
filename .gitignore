@@ -1,7 +1,9 @@
 .vscode
 .vscode/*
 
-image_processor/output_images/*
+05-image_processor/output_images/*
 
-communication/shared_folder/*
-communication/output_images/*
+06-communication/shared_folder/*
+06-communication/output_images/*
+
+08-network_application/output/*
